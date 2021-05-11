@@ -1,3 +1,3 @@
 # Faculdade
  Códigos feitos em sala de aula para apresentação.
- O presente código refere-se 
+ Cada pasta refere-se a cada uma das matérias.
