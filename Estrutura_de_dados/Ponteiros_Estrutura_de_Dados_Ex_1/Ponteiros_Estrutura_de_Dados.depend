@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1620930424 source:d:\unifei\segundo ano\primeiro semestre\teste_programacao\ponteiros_estrutura_de_dados\main.c
+	"ponteiros.h"
+
+1620930424 d:\unifei\segundo ano\primeiro semestre\teste_programacao\ponteiros_estrutura_de_dados\ponteiros.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1620930424 source:d:\unifei\segundo ano\primeiro semestre\teste_programacao\ponteiros_estrutura_de_dados\ponteiros.c
+	"ponteiros.h"
+
