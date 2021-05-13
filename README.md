@@ -3,6 +3,9 @@
 Cada pasta refere-se a uma matéria com códigos que possuem os conteúdos aprendidos em sala de aula. 
 
 Guia:
+
+
+
 > Faculdade:
    ●Estrutura_de_dados:
        -Código_Lista_Mercado;
