@@ -98,3 +98,17 @@ void mostra_matrizes()
         }
     }
 }
+
+void limpa_matriz()
+{
+    int i=0,j=0,z=0;
+    for(i=0; i<10; i++) //limpando matriz A, B e C
+    {
+        free(matrizA[i]);
+        free(matrizB[i]);
+        free(matrizSoma[i]);
+    }
+    free(matrizA);
+    free(matrizB);
+    free(matrizSoma);
+}

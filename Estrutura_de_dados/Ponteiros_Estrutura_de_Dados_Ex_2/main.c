@@ -6,4 +6,5 @@ int main()
     aleatoriza();
     soma_matrizes();
     mostra_matrizes();
+    limpa_matriz();
 }

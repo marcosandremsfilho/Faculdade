@@ -5,6 +5,6 @@
 #define col 10
 #define lin 20
 
-int **matrizA, **matrizB, **matrizC, **matrizSoma;
+int **matrizA, **matrizB, **matrizSoma;
 
 
