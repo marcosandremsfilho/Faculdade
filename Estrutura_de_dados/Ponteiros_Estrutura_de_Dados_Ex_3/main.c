@@ -8,4 +8,5 @@ int main()
     inicializavetor();
     anota_livro();
     mostra_livro();
+    limpa_vetor();
 }

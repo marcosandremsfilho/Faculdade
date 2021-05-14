@@ -39,6 +39,11 @@ void mostra_livro()
     int i=0;
     for(i=0; i<quanti; i++)
     {
-        printf("\nLivro: %s \nAuto: %s \nLançamento: %d\nEditora: %s\nClassificação: %s\n", vetor[i].nome, vetor[i].autor,vetor[i].lancamento, vetor[i].editora, vetor[i].classificacao);
+        printf("\n Livro: %s\n Auto: %s\n Lançamento: %d\n Editora: %s\n Classificação: %s\n", vetor[i].nome, vetor[i].autor,vetor[i].lancamento, vetor[i].editora, vetor[i].classificacao);
     }
+}
+
+void limpa_vetor()
+{
+    free(vetor);
 }
