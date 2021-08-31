@@ -1,15 +1,1 @@
-# Faculdade
- Códigos feitos em sala de aula para apresentação.
-Cada pasta refere-se a uma matéria com códigos que possuem os conteúdos aprendidos em sala de aula. 
-
-# Guia: <br />
-## > Faculdade: <br />
-### Estrutura_de_dados: <br />
-       *Código_Lista_Mercado; 
-       *Ponteiros_Estrutura_de_Dados_Ex_1; 
-       *Ponteiros_Estrutura_de_Dados_Ex_2; 
-       *Ponteiros_Estrutura_de_Dados_Ex_3; 
-### Prog_1_ano: <br />
-       *Jogo_Pokemon; 
-       *projeto_organizador_de_vetor; 
-    
+O presente código refere-se a uma lista "fila". O exemplo utilizado para realizar esse código é uma fila de espera para a liberação de voo de uma série de aviões, onde o  primeiro elemento a ser adicionado é o primeiro elemento a sair da fila, isso pode ser percebido ao utilizar a função "4" do código e logo em seguida utilizar a função "2" e utilizar a "4" novamente, ao fazer isso será possível observar que o primeiro avião adicionado foi o primeiro avião a ser retirado da fila de espera.  
