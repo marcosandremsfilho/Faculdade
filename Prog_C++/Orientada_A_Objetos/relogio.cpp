@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdio.h>
 #include <windows.h>
+#include <iomanip>
+
 using namespace std;
 
 int hora;
@@ -29,9 +31,13 @@ int main()
 
     system("cls");
   cout << "Hora atual: ";
-  cout << hora << ":" << minuto << ":" << segundos;
+  cout << setw(2) << setfill('0') << hora << ":";
+  cout << setw(2) << setfill('0') << minuto << ":";
+  cout << setw(2) << setfill('0') << segundos;
   cout << "\n" << "Data: ";
-  cout << dia << "/" << mes <<"/" << ano;
+  cout << setw(2) << setfill('0') << dia << "/";
+  cout << setw(2) << setfill('0') << mes << "/";
+  cout << setw(2) << setfill('0') << ano << "\n";
 
   while (1)
   {
@@ -43,7 +49,7 @@ int main()
       aux = 1;
     else if (mes>7 && mes%2 ==1)
       aux = 0;
-    Sleep(1000);
+    Sleep(990);
     segundos++;
 
 
@@ -96,9 +102,13 @@ int main()
     }
   }
   system("cls");
-  cout << "Hora atual: ";
-  cout << hora << ":" << minuto << ":" << segundos;
+  cout << "Hora atual: "; // utilizar setw e setfill toda vez
+  cout << setw(2) << setfill('0') << hora << ":";
+  cout << setw(2) << setfill('0') <<  minuto << ":";
+  cout << setw(2) << setfill('0') << segundos;
   cout << "\n" << "Data: ";
-  cout << dia << "/" << mes <<"/" <<ano;
+  cout << setw(2) << setfill('0') << dia << "/";
+  cout << setw(2) << setfill('0') << mes << "/";
+  cout << setw(2) << setfill('0') << ano << "\n";
   }
 }
