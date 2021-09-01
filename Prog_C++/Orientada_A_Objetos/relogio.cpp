@@ -47,37 +47,19 @@ cout << "\n" << "AUX:" << aux;
       aux = 0;
     Sleep(1000);
     segundos++;
-    system("cls");
-    cout << "Hora atual: ";
-    cout << hora << ":" << minuto << ":" << segundos;
-    cout << "\n" << "Data: ";
-    cout << dia << "/" << mes <<"/" <<ano;
-    cout << "\n" << "AUX:" << aux;
+
 
 
     if(segundos == 60)
     {
       segundos = 0;
       minuto++;
-      system("cls");
-      cout << "Hora atual: ";
-      cout << hora << ":" << minuto << ":" << segundos;
-      cout << "\n" << "Data: ";
-      cout << dia << "/" << mes <<"/" <<ano;
-      cout << "\n" << "AUX:" << aux;
-
     }
 
     if(minuto >= 60)
     {
       minuto = 0;
       hora++;
-      system("cls");
-      cout << "Hora atual: ";
-      cout << hora << ":" << minuto << ":" << segundos;
-      cout << "\n" << "Data: ";
-      cout << dia << "/" << mes <<"/" <<ano;
-      cout << "\n" << "AUX:" << aux;
   }
   if (hora >= 24)
   {
@@ -93,44 +75,21 @@ cout << "\n" << "AUX:" << aux;
         mes = 1;
         ano++;
       }
-      system("cls");
-      cout << "Hora atual: ";
-      cout << hora << ":" << minuto << ":" << segundos;
-      cout << "\n" << "Data: ";
-      cout << dia << "/" << mes <<"/" <<ano;
     }
     else if(dia >= 30 && aux == 0)
     {
       mes++;
       dia = 1;
-
-      system("cls");
-      cout << "Hora atual: ";
-      cout << hora << ":" << minuto << ":" << segundos;
-      cout << "\n" << "Data: ";
-      cout << dia << "/" << mes <<"/" <<ano;
     }
     else if(mes == 2 && ano%4 == 0 && dia >= 29)
     {
       dia = 1;
       mes++;
-
-      system("cls");
-      cout << "Hora atual: ";
-      cout << hora << ":" << minuto << ":" << segundos;
-      cout << "\n" << "Data: ";
-      cout << dia << "/" << mes <<"/" <<ano;
     }
     else if(mes == 2 && ano%4 != 0 && dia >= 28)
     {
       dia = 1;
       mes++;
-      
-      system("cls");
-      cout << "Hora atual: ";
-      cout << hora << ":" << minuto << ":" << segundos;
-      cout << "\n" << "Data: ";
-      cout << dia << "/" << mes <<"/" <<ano;
     }
 
     else
@@ -138,5 +97,10 @@ cout << "\n" << "AUX:" << aux;
       dia++;
     }
   }
+  system("cls");
+  cout << "Hora atual: ";
+  cout << hora << ":" << minuto << ":" << segundos;
+  cout << "\n" << "Data: ";
+  cout << dia << "/" << mes <<"/" <<ano;
   }
 }
