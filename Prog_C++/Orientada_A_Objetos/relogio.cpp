@@ -49,10 +49,8 @@ int main()
       aux = 1;
     else if (mes>7 && mes%2 ==1)
       aux = 0;
-    Sleep(990);
+    Sleep(950);
     segundos++;
-
-
 
     if(segundos == 60)
     {
@@ -60,13 +58,13 @@ int main()
       minuto++;
     }
 
-    if(minuto >= 60)
+    else if(minuto >= 60)
     {
       minuto = 0;
       hora++;
-  }
-  if (hora >= 24)
-  {
+    }
+    else if (hora >= 24)
+    {
     hora = 0;
 
     if(dia >= 31 && aux == 1)
@@ -79,17 +77,17 @@ int main()
         mes = 1;
         ano++;
       }
-    }
-    else if(dia >= 30 && aux == 0)
-    {
-      mes++;
-      dia = 1;
-    }
-    else if(mes == 2 && ano%4 == 0 && dia >= 29)
-    {
-      dia = 1;
-      mes++;
-    }
+      }
+      else if(dia >= 30 && aux == 0)
+      {
+        mes++;
+        dia = 1;
+      }
+      else if(mes == 2 && ano%4 == 0 && dia >= 29)
+      {
+        dia = 1;
+        mes++;
+      }
     else if(mes == 2 && ano%4 != 0 && dia >= 28)
     {
       dia = 1;
