@@ -32,8 +32,6 @@ int main()
   cout << hora << ":" << minuto << ":" << segundos;
   cout << "\n" << "Data: ";
   cout << dia << "/" << mes <<"/" << ano;
-cout << "\n" << "AUX:" << aux;
-
 
   while (1)
   {
