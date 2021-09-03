@@ -1,6 +1,27 @@
 #include "relogio.h"
 
-int main()
+int hora;
+int minuto;
+int segundos=0;
+int dia;
+int mes;
+int ano;
+int aux;
+
+void printa()
+{
+  system("cls");
+cout << "Hora atual: ";
+cout << setw(2) << setfill('0') << hora << ":";
+cout << setw(2) << setfill('0') << minuto << ":";
+cout << setw(2) << setfill('0') << segundos;
+cout << "\n" << "Data: ";
+cout << setw(2) << setfill('0') << dia << "/";
+cout << setw(2) << setfill('0') << mes << "/";
+cout << setw(2) << setfill('0') << ano << "\n";
+}
+
+void config ()
 {
   cout << "Vamos acertar o calendario." << "\n";
   cout << "Digite o dia: ";
@@ -15,85 +36,70 @@ int main()
   cin >> hora;
   cout << "Digite a hora minuto: ";
   cin >> minuto;
+}
 
-    system("cls");
-  cout << "Hora atual: ";
-  cout << setw(2) << setfill('0') << hora << ":";
-  cout << setw(2) << setfill('0') << minuto << ":";
-  cout << setw(2) << setfill('0') << segundos;
-  cout << "\n" << "Data: ";
-  cout << setw(2) << setfill('0') << dia << "/";
-  cout << setw(2) << setfill('0') << mes << "/";
-  cout << setw(2) << setfill('0') << ano << "\n";
+void configAUX ()
+{
+  if (mes<7 && mes%2 == 0)
+    aux = 0;
+  else if(mes<=7 && mes%2 != 0)
+    aux = 1;
+  else if(mes>7 && mes%2 == 0)
+    aux = 1;
+  else if (mes>7 && mes%2 ==1)
+    aux = 0;
+}
 
-  while (1)
+void relogioCalendario()
+{
+  segundos++;
+
+  if(segundos == 60)
   {
-    if (mes<7 && mes%2 == 0)
-      aux = 0;
-    else if(mes<=7 && mes%2 != 0)
-      aux = 1;
-    else if(mes>7 && mes%2 == 0)
-      aux = 1;
-    else if (mes>7 && mes%2 ==1)
-      aux = 0;
-    Sleep(950);
-    segundos++;
+    segundos = 0;
+    minuto++;
+  }
 
-    if(segundos == 60)
+  else if(minuto >= 60)
+  {
+    minuto = 0;
+    hora++;
+  }
+  else if (hora >= 24)
+  {
+  hora = 0;
+
+  if(dia >= 31 && aux == 1)
+  {
+    mes++;
+    dia = 1;
+
+    if(mes==13)
     {
-      segundos = 0;
-      minuto++;
+      mes = 1;
+      ano++;
     }
-
-    else if(minuto >= 60)
-    {
-      minuto = 0;
-      hora++;
     }
-    else if (hora >= 24)
-    {
-    hora = 0;
-
-    if(dia >= 31 && aux == 1)
+    else if(dia >= 30 && aux == 0)
     {
       mes++;
       dia = 1;
-
-      if(mes==13)
-      {
-        mes = 1;
-        ano++;
-      }
-      }
-      else if(dia >= 30 && aux == 0)
-      {
-        mes++;
-        dia = 1;
-      }
-      else if(mes == 2 && ano%4 == 0 && dia >= 29)
-      {
-        dia = 1;
-        mes++;
-      }
-    else if(mes == 2 && ano%4 != 0 && dia >= 28)
+    }
+    else if(mes == 2 && ano%4 == 0 && dia >= 29)
     {
       dia = 1;
       mes++;
     }
+  else if(mes == 2 && ano%4 != 0 && dia >= 28)
+  {
+    dia = 1;
+    mes++;
+  }
 
-    else
-    {
-      dia++;
-    }
+  else
+  {
+    dia++;
   }
-  system("cls");
-  cout << "Hora atual: "; // utilizar setw e setfill toda vez
-  cout << setw(2) << setfill('0') << hora << ":";
-  cout << setw(2) << setfill('0') <<  minuto << ":";
-  cout << setw(2) << setfill('0') << segundos;
-  cout << "\n" << "Data: ";
-  cout << setw(2) << setfill('0') << dia << "/";
-  cout << setw(2) << setfill('0') << mes << "/";
-  cout << setw(2) << setfill('0') << ano << "\n";
-  }
+}
+
 }
