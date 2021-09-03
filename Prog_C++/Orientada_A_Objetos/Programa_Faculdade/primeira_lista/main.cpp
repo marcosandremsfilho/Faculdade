@@ -1,4 +1,3 @@
-#include <iostream>
 #include "primeira.h"
 #include "primeira_lista.cpp"
 
