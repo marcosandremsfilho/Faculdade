@@ -6,12 +6,3 @@
 #include <string.h>
 
 using namespace std;
-
-int x;
-float graus, reais, dolar, cambio;
-long double radiano;
-string rua = "";
-string bairro = "";
-string cidade = "";
-string estado = "";
-int numero, cep;
