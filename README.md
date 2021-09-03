@@ -4,7 +4,7 @@ Cada pasta refere-se a uma matéria com códigos que possuem os conteúdos apren
 
 # Guia: <br />
 ## > Faculdade: <br />
-### - Primeiro ano:
+### - Códigos em C:
 #### Estrutura_de_dados: <br />
        *Código_Lista_Mercado; 
        *Ponteiros_Estrutura_de_Dados_Ex_1; 
@@ -13,7 +13,7 @@ Cada pasta refere-se a uma matéria com códigos que possuem os conteúdos apren
 #### Prog_1_ano: <br />
        *Jogo_Pokemon; 
        *projeto_organizador_de_vetor; 
-### - Segundo ano:
+### - Códigos em C++:
 #### Orientada a objetos: <br />
      * RelogioCalendario;
      *Programa_Faculdade;
