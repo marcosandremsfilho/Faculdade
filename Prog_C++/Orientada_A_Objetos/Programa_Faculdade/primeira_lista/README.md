@@ -13,6 +13,7 @@
         4. Essa opção irá fazer com que o código pare de rodar;
  ------------------------------
  # primeira_lista;
+ ###### Translating the code name is "first_list".
  
  #### > The current code was my first code for the class of Object Oriented Programming, attended in the Federal University of Itajubá - UNIFEI.
  
