@@ -15,7 +15,7 @@
  # primeira_lista;
  ###### Translating the code name is "first_list".
  
- #### > The current code was my first code for the class of Object Oriented Programming (OPP), attended in the Federal University of Itajubá - UNIFEI.
+ #### > The current code was my first code for the class of Object Oriented Programming (OOP), attended in the Federal University of Itajubá - UNIFEI.
  
  #### > The objective of the code is to introduce for the user 4 options, being them:
          1. Degrees to radian conversor; The user enter with the value in degrees and the code return for
