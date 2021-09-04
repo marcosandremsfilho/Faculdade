@@ -12,6 +12,8 @@
         código ira retornar as informações para o usuário de forma ordenada.
         4. Essa opção irá fazer com que o código pare de rodar;
  ------------------------------
+ # primeira_lista;
+ 
  #### > The current code was my first code for the class of Object Oriented Programming, attended in the Federal University of Itajubá - UNIFEI.
  
  #### > The objective of the code is to introduce for the user 4 options, being them:
