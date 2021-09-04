@@ -9,5 +9,5 @@
 
 #### > The current code was made for the subject Data Structure, attended in the Federal University of Itajubá - UNIFEI.
 
-#### > The current code has the function to randomize two matrices and sum both and free the memory space used.
+#### > The current code has the function to randomize two matrices, sum both and free the memory space used.
 
