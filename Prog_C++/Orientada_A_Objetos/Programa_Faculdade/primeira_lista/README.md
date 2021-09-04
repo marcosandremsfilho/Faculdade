@@ -1,15 +1,28 @@
-# Faculdade
- Códigos feitos em sala de aula para apresentação.
-Cada pasta refere-se a uma matéria com códigos que possuem os conteúdos aprendidos em sala de aula. 
+# primeira_lista;
 
-# Guia: <br />
-## > Faculdade: <br />
-### Estrutura_de_dados: <br />
-       *Código_Lista_Mercado; 
-       *Ponteiros_Estrutura_de_Dados_Ex_1; 
-       *Ponteiros_Estrutura_de_Dados_Ex_2; 
-       *Ponteiros_Estrutura_de_Dados_Ex_3; 
-### Prog_1_ano: <br />
-       *Jogo_Pokemon; 
-       *projeto_organizador_de_vetor; 
-    
+#### > O presente código foi o primeiro código montando para a materia de orientada a objetos, cursada na Universidade Federal de Itajubá - UNIFEI.
+
+#### > O objetivo do código é apresentar para o usuário 4 opções, sendo elas:
+        1. Um conversor de graus para radianos; O usuário entra com o valor desejado em graus e o 
+        código devolve a ele o valor em radianos.
+        2. Um conversor de Reais para Dólar; O usuário entra com o valor em Reais (R$) e com o valor da
+        cotação do dia e o código entrega o valor em dólares.
+        3. Salva os dados do usuário; O usuário entra com seus dados, sendo eles, a rua, número da 
+        residência, CEP, bairro, cidade e estado, ao fim, com toda a documentação já inserida o 
+        código ira retornar as informações para o usuário de forma ordenada.
+        4. Essa opção irá fazer com que o código pare de rodar;
+ ------------------------------
+ # primeira_lista;
+ ###### Translating the code name is "first_list".
+ 
+ #### > The current code was my first code for the class of Object Oriented Programming, attended in the Federal University of Itajubá - UNIFEI.
+ 
+ #### > The objective of the code is to introduce for the user 4 options, being them:
+         1. Degrees to radian conversor; The user enter with the value in degrees and the code return for
+         the user the value in radian.  
+         2. Reais to Dollar conversor; The user enter with the value in Reais (R$) and the price of the dollar 
+         in the day and the code return for the user the value in dollars.
+         3. Save the user data; The user enter with the datas, being them, his street, house number, CEP, district,
+         city and state, in the end, with all documentations already inserted, the code will return the the information
+         in an orderly way.
+         4. This options stops the programm.
