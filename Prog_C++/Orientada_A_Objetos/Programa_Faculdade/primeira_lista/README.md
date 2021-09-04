@@ -1,6 +1,6 @@
 # primeira_lista;
 
-#### > O presente código foi o primeiro código montando para a materia de orientada a objetos, cursada na Universidade Federal de Itajubá - UNIFEI.
+#### > O presente código foi o primeiro código montando para a materia de Programação Orientada a Objetos(POO), cursada na Universidade Federal de Itajubá - UNIFEI.
 
 #### > O objetivo do código é apresentar para o usuário 4 opções, sendo elas:
         1. Um conversor de graus para radianos; O usuário entra com o valor desejado em graus e o 
