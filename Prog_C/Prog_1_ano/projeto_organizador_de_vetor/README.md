@@ -7,6 +7,6 @@
 # Jogo_Pokemon;
 ##### Translating the code name is "Pokemon_Game".
 
-#### > The current code was made for the subject programming techniques, attended in the Federal University of Itajubá - UNIFEI.
+#### > The current code was made for the programming techniques subject , attended in the Federal University of Itajubá - UNIFEI.
 
 #### > The current programm refers to a code vector organizer, generated in a random way. To build this code, was used the bubble sort function, consisting in summon the vector many times and each time the vector was summoned the bigger value "float" to the top, organizing the vector. 
