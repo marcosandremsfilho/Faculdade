@@ -1,15 +1,14 @@
-# Faculdade
- Códigos feitos em sala de aula para apresentação.
-Cada pasta refere-se a uma matéria com códigos que possuem os conteúdos aprendidos em sala de aula. 
+# Jogo_Pokemon;
 
-# Guia: <br />
-## > Faculdade: <br />
-### Estrutura_de_dados: <br />
-       *Código_Lista_Mercado; 
-       *Ponteiros_Estrutura_de_Dados_Ex_1; 
-       *Ponteiros_Estrutura_de_Dados_Ex_2; 
-       *Ponteiros_Estrutura_de_Dados_Ex_3; 
-### Prog_1_ano: <br />
-       *Jogo_Pokemon; 
-       *projeto_organizador_de_vetor; 
+#### > O presente código foi montado para a materia de técnicas de programação, cursada na Universidade Federal de Itajubá - UNIFEI.
+
+#### > O presente código é referente a um jogo baseado no jogo do "pokémon". O jogo inicia gerando um campo 20 x 20 e aleatorizando os elementos do mapa, podendo ser água, fogo, terra, ar, fogo e eletricidade, tornando assim o jogo mais dinamico e com mais elementos que aumentam a complexidade. Além do mapa o usário deverar escolher quais serão seus 5 pokémons e os 5 pokémons dos mestre que ele irá duelar. Os mestres serão gerados de forma aleatória pelo mapa.
+----------
+# Ponteiros_Estruturas_De_Dados_Ex_1;
+##### Translating the code name is "Pointers_Data_Structure_Ex_1".
+
+#### > The current code was made for the subject programming techniques, attended in the Federal University of Itajubá - UNIFEI.
+
+#### > The current code refers to a game based in the "pokemon" game. The game starts randomizing the elements of the map that has 20 x 20 of size, the elements can be, water, fire, earth, wind, fire and electricity, making the game more dynamic and with more elements that increase the complexity  of the game. Beyond the map, the user will choose what 5 pokémons that he want and the 5 pokémons of the masters that he will fight. The masters will be generated in a random way around the map.
+
     
