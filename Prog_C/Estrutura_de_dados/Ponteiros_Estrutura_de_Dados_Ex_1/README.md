@@ -9,4 +9,4 @@
 
 #### > The current code was made for the subject Data Structure, attended in the Federal University of Itajubá - UNIFEI.
 
-#### > The current code have the object to build a vector using the "malloc" function what reserve some space provided by the user. The space was provided using the "scanf" function. Done that the code will randomize the vector values and show to the user and clean the space memory used by the vector.
+#### > The current code have the object to build a vector using the "malloc" function what reserve some space provided by the user. The space was provided using the "scanf" function. Done that the code will randomize the vector values and show to the user and free the memory space used by the vector.
