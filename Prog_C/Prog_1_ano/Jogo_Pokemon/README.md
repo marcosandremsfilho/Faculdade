@@ -4,8 +4,8 @@
 
 #### > O presente código é referente a um jogo baseado no jogo do "pokémon". O jogo inicia gerando um campo 20 x 20 e aleatorizando os elementos do mapa, podendo ser água, fogo, terra, ar, fogo e eletricidade, tornando assim o jogo mais dinamico e com mais elementos que aumentam a complexidade. Além do mapa o usário deverar escolher quais serão seus 5 pokémons e os 5 pokémons dos mestre que ele irá duelar. Os mestres serão gerados de forma aleatória pelo mapa.
 ----------
-# Ponteiros_Estruturas_De_Dados_Ex_1;
-##### Translating the code name is "Pointers_Data_Structure_Ex_1".
+# Jogo_Pokemon;
+##### Translating the code name is "Pokemon_Game".
 
 #### > The current code was made for the subject programming techniques, attended in the Federal University of Itajubá - UNIFEI.
 
