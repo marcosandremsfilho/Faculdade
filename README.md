@@ -1,6 +1,6 @@
 # Faculdade
  Códigos feitos em sala de aula.
-Cada pasta refere-se a uma matéria da faculdade com códigos que possuem os conteúdos aprendidos em sala de aula. 
+ Cada pasta refere-se a uma matéria da faculdade com códigos que possuem os conteúdos aprendidos em sala de aula. 
 
 # Guia: <br />
 ## > Faculdade: <br />
