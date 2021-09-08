@@ -1,6 +1,6 @@
 # primeira_lista;
 
-#### > O presente código foi o primeiro código montando para a materia de orientada a objetos, cursada na Universidade Federal de Itajubá - UNIFEI.
+#### > O presente código foi o primeiro código montando para a materia de Programação Orientada a Objetos(POO), cursada na Universidade Federal de Itajubá - UNIFEI.
 
 #### > O objetivo do código é apresentar para o usuário 4 opções, sendo elas:
         1. Um conversor de graus para radianos; O usuário entra com o valor desejado em graus e o 
@@ -15,7 +15,7 @@
  # primeira_lista;
  ###### Translating the code name is "first_list".
  
- #### > The current code was my first code for the class of Object Oriented Programming, attended in the Federal University of Itajubá - UNIFEI.
+ #### > The current code was my first code for the class of Object Oriented Programming (OOP), attended in the Federal University of Itajubá - UNIFEI.
  
  #### > The objective of the code is to introduce for the user 4 options, being them:
          1. Degrees to radian conversor; The user enter with the value in degrees and the code return for

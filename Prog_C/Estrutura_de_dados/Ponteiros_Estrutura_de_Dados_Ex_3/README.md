@@ -7,7 +7,7 @@
 # Ponteiros_Estruturas_De_Dados_Ex_3;
 ##### Translating the code name is "Pointers_Data_Structure_Ex_3".
 
-#### > The current code was made for the subject Data Structure, attended in the Federal University of Itajubá - UNIFEI.
+#### > The current code was made for the Data Structure subject, attended in the Federal University of Itajubá - UNIFEI.
 
 #### > The code was made to save datas from books, being them, the name of the book, the author, release date, publishing company and the book classification.
 
