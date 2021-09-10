@@ -19,9 +19,9 @@
      *Programa_Faculdade;
        °primeira_lista;
        °segunda_lista;
-         °ex01;
-         °ex02;
-         °ex03;
+         -ex01;
+         -ex02;
+         -ex03;
 ----------------------------------------------------------------------------------------------------------------------
 # College
  Codes made in classroom.
@@ -43,6 +43,6 @@
        *Programa_Faculdade;
          °primeira_lista;
          °segunda_lista;
-           °ex01;
-           °ex02;
-           °ex03;
+           -ex01;
+           -ex02;
+           -ex03;
