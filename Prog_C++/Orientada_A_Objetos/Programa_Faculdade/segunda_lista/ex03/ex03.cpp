@@ -1,5 +1,3 @@
-//Marcos André Magalhães de Sousa Filho, 2020002875
-
 #include <iostream>
 #include <windows.h>
 
