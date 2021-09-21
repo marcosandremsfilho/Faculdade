@@ -17,7 +17,11 @@
 #### Orientada a objetos: <br />
      * RelogioCalendario;
      *Programa_Faculdade;
-       °Lista_1;
+       °primeira_lista;
+       °segunda_lista;
+         -ex01;
+         -ex02;
+         -ex03;
 ----------------------------------------------------------------------------------------------------------------------
 # College
  Codes made in classroom.
@@ -37,4 +41,8 @@
 #### Object Oriented Programming: <br />
        * RelogioCalendario;
        *Programa_Faculdade;
-         °Lista_1;
+         °primeira_lista;
+         °segunda_lista;
+           -ex01;
+           -ex02;
+           -ex03;
