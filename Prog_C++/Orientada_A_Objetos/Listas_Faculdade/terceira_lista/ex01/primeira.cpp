@@ -4,12 +4,12 @@ PrimeiraClasse :: PrimeiraClasse(int x1, int x2)
 {
   num1 = x1;
   num2 = x2;
+  cout << "numeros inicializados! \n";
 }
 
-void PrimeiraClasse :: imprimeSoma()
+int PrimeiraClasse :: soma()
 {
-  s = num1 + num2;
-  cout << "numeros inicializados! \n" << "O teste de adicao e: " << s;
+  return num1 + num2;
 }
 
 PrimeiraClasse :: ~PrimeiraClasse()

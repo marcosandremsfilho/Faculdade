@@ -8,12 +8,11 @@ using namespace std;
 class PrimeiraClasse
 {
 private:
-  int num1, num2, s;
+  int num1, num2;
 
 public:
-  PrimeiraClasse ();
   PrimeiraClasse (int, int);
-  void imprimeSoma();
+  int soma();
   ~PrimeiraClasse();
 };
 

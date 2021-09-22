@@ -10,5 +10,9 @@ int main()
   cout << "\nEntre com o segundo numero: ";
   cin >> x2;
   PrimeiraClasse PrimeiraClasse(x1, x2);
-  PrimeiraClasse.imprimeSoma ();
+
+  cout << "O teste de adicao e: " << PrimeiraClasse.soma() << endl;
+
+  return 0;
+
 }
