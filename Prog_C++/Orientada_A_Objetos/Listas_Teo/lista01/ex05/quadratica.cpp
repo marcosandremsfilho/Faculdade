@@ -20,9 +20,9 @@ void quadratica :: equacao()
     _x2 = (-_b - sqrt(_delta))/2*_a;
   }
 
-  if(_delta == 0)
+  else if(_delta == 0)
   {
-    _x1 = _x2 = -_b / 2*_a;
+    _x1 = ((-_b) / (2*_a));
   }
 
 }
@@ -32,14 +32,14 @@ void quadratica :: print()
   if (_delta > 0)
   {
     cout << "O valor de delta e " << _delta;
-    cout << "\nComo delta e maior que 0 temos duas solucoes para a equacao sendo elas\n X1 = ";
+    cout << "\nComo delta e maior que 0 temos duas solucoes para a equacao, sendo elas\n X1 = ";
     cout << _x1 <<"\n X2 = " << _x2;
   }
 
   else if(_delta == 0)
   {
     cout << "O valor de delta e " << _delta;
-    cout << "\nComo delta e igual a 0 temos somente uma solucao logo X1 = X2 = ";
+    cout << "\nComo delta e igual a 0 temos somente uma solucao, logo X1 = X2 = ";
     cout << _x1;
   }
 
