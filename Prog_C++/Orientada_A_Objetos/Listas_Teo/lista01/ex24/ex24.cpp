@@ -20,7 +20,7 @@ int main()
   cout << "\n\n----------------------------- COMPARACOES ----------------------------- ";
   if(fracao1 > fracao2)
     cout << "\n\nA primeira fracao e maior que a segunda!";
-  if(fracao1 < fracao2)
+  else if(fracao1 < fracao2)
     cout << "\n\nA primeira fracao e menor que a segunda!";
   else
     cout << "\n\nAs duas equacoes sao iguais!";
