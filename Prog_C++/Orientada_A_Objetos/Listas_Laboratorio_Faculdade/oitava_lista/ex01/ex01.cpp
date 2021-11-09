@@ -1,5 +1,11 @@
 #include "animal.h"
+#include "baleia.h"
+#include "cavalo.h"
+#include "girafa.h"
 #include "animal.cpp"
+#include "baleia.cpp"
+#include "cavalo.cpp"
+#include "girafa.cpp"
 
 int main()
 {
