@@ -47,8 +47,8 @@ class RendaFixa : public investimento
 
 #endif
 
-#ifndef RENDAFIXA_H
-#define RENDAFIXA_H
+#ifndef IMOBILIARIO_H
+#define IMOBILIARIO_H
 
 class Imobiliario : public investimento
 {
