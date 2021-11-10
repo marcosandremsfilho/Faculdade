@@ -31,7 +31,7 @@ int main()
 
 
 
-    cout << "\n\nExpectativa de rendimentos:\n";
+  cout << "\n\nExpectativa de rendimentos:\n";
   cout << "\nRendimento do papel da bolsa: " << papel->retorno(meses);
   cout << "\nRendimento do fundo renda fixa: " << renda->retorno(meses);
   cout << "\nRendimento do fundo imobiliario: " << imobiliario->retorno(meses);
