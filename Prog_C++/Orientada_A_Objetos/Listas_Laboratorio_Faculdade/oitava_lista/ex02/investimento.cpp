@@ -48,18 +48,3 @@ float Imobiliario :: retorno(int meses)
 
   return valor;
 }
-
-void PapelBolsa :: nome()
-{
-  
-}
-
-void RendaFixa :: nome()
-{
-
-}
-
-void Imobiliario :: nome()
-{
-
-}

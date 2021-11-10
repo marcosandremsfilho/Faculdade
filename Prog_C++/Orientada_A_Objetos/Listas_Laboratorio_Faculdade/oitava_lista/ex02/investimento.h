@@ -14,7 +14,6 @@ class investimento
     investimento(float valor = 0, float taxa = 0) : _valor{valor}, _taxa{taxa} { }
     ~investimento( ) { }
 
-    virtual void nome();
     virtual float retorno( int );
 };
 
@@ -29,7 +28,6 @@ class PapelBolsa : public investimento
     PapelBolsa(float valor = 0, float taxa = 0) : investimento{valor, taxa} { }
     ~PapelBolsa( ) { }
 
-    void nome();
     float retorno( int );
 };
 
@@ -44,7 +42,6 @@ class RendaFixa : public investimento
     RendaFixa(float valor = 0, float taxa = 0) : investimento{valor, taxa} { }
     ~RendaFixa( ) { }
 
-    void nome();
     float retorno( int );
 };
 
@@ -59,7 +56,6 @@ class Imobiliario : public investimento
     Imobiliario(float valor = 0, float taxa = 0) : investimento{valor, taxa} { }
     ~Imobiliario( ) { }
 
-    void nome();
     float retorno( int );
 };
 
