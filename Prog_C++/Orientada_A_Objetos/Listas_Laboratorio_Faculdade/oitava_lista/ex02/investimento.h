@@ -14,6 +14,7 @@ class investimento
     investimento(float valor = 0, float taxa = 0) : _valor{valor}, _taxa{taxa} { }
     ~investimento( ) { }
 
+    void retornaValores();
     virtual float retorno( int );
 };
 
