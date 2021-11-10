@@ -4,7 +4,7 @@
 int main()
 {
   float valor, taxa_bolsa, taxa_renda, taxa_Imobiliario;
-
+  int meses;
 
   cout << "\n=== Programa de Rendimentos ===\n";
 
@@ -22,14 +22,17 @@ int main()
   cout << "\nTaxa do fundo imobiliario: ";
   cin >> taxa_Imobiliario;
 
-  investimento *op1 = new PapelBolsa{valor, taxa_bolsa};
-  investimento *op2 = new RendaFixa{valor, taxa_renda};
-  investimento *op3 = new Imobiliario{valor, taxa_Imobiliario};
+  cout << "\nNumero de meses: ";
+  cin >> meses;
 
-  int m = 24;
+  investimento *papel = new PapelBolsa{valor, taxa_bolsa};
+  investimento *renda = new RendaFixa{valor, taxa_renda};
+  investimento *imobiliario = new Imobiliario{valor, taxa_Imobiliario};
+
+
 
     cout << "\n\nExpectativa de rendimentos:\n";
-  cout << "\nRendimento do papel da bolsa: " << op1->retorno(m);
-  cout << "\nRendimento do fundo renda fixa: " << op2->retorno(m);
-  cout << "\nRendimento do fundo imobiliario: " << op3->retorno(m);
+  cout << "\nRendimento do papel da bolsa: " << papel->retorno(meses);
+  cout << "\nRendimento do fundo renda fixa: " << renda->retorno(meses);
+  cout << "\nRendimento do fundo imobiliario: " << imobiliario->retorno(meses);
 }
