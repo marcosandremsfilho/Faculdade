@@ -1,36 +1,65 @@
 #include "investimento.h"
 
+float investimento :: retorno(int meses)
+{
+  return 0;
+}
+
 float PapelBolsa :: retorno(int meses)
 {
-  float papelBolsa = 0;
-  float aux = 0;
-
-  for(int i = 0 ; i < meses; i++)
+  float PapelBolsaP = 0, PapelBolsaN = 0;
+  float valor = _valor;
+  for(int i = 1 ; i <= meses; i++)
   {
-    if(meses%2 == 0)
+    if(i%2 == 0)
     {
-      aux = _valor * _taxa;
-      papelBolsa = papelBolsa + aux;
+      PapelBolsaP = valor + valor * _taxa;
+      valor = PapelBolsaP;
     }
     else
     {
-      aux = _valor * (-1*_taxa);
-      papelBolsa = papelBolsa + aux;
+      PapelBolsaN = valor - valor * _taxa;
+      valor = PapelBolsaN;
     }
   }
-  return papelBolsa;
+  return valor;
 }
 
 float RendaFixa :: retorno(int meses)
 {
-  float soma = meses * _valor;
-  float TaxaReal = (_taxa - _taxa*0.15);
-  float rendaFixa = soma * TaxaReal;
-  return rendaFixa;
+  float valor = _valor;
+
+  for (int i = 0; i <= meses - 1; i++)
+  {
+    valor = valor + valor*(_taxa - _taxa * 0.15);
+  }
+  return valor;
 }
 
 float Imobiliario :: retorno(int meses)
 {
-  float imobiliario = (meses * _valor)*((3/4)*_taxa);
-  return imobiliario;
+  float valor = _valor;
+
+  for (int i = 0; i <= meses - 1; i++)
+  {
+
+    valor = valor + valor*0.75*_taxa;
+  }
+
+  return valor;
+}
+
+void PapelBolsa :: nome()
+{
+  
+}
+
+void RendaFixa :: nome()
+{
+
+}
+
+void Imobiliario :: nome()
+{
+
 }
