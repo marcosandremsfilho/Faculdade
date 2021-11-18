@@ -37,20 +37,28 @@ void Conta :: imprime()
 
 float ContaEspecial :: saque (float saque)
 {
+  float novoSaldo;
   if ((_saldo + _limite) < saque )
     cout << "\nSaldo insuficiente";
   else
-    return _saldo - saque;
+  {
+    novoSaldo = _saldo - saque;
+    _saldo = novoSaldo;
+    return _saldo;
+  }
 }
 
 float ContaEspecial :: deposito (float deposito)
 {
-  return _saldo + deposito;
+  float novoSaldo;
+  novoSaldo = _saldo + deposito;
+  _saldo = novoSaldo;
+  return _saldo;
 }
 
 void ContaEspecial :: imprime()
 {
-  cout << "Limite: " << _limite << "\n\n";
+  cout << "\nLimite: " << _limite << "\n\n";
   Conta :: imprime();
 
 }

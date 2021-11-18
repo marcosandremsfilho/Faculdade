@@ -15,7 +15,9 @@ public:
   Cliente(string nome = " ", int idade = 0, string endereco = " ") : _nome{nome}, _idade{idade}, _endereco{endereco} { }
   ~Cliente() { }
 
-  void imprime();
+  virtual void imprime();
+  virtual float saque (float);
+  virtual float deposito (float);
 };
 
 #endif
@@ -23,7 +25,7 @@ public:
 #ifndef CONTA_H
 #define CONTA_H
 
-class Conta
+class Conta : public Cliente
 {
 protected:
   int _numero, _agencia;
@@ -36,7 +38,7 @@ public:
   float saque (float);
   float deposito (float);
 
-  virtual void imprime();
+  void imprime();
 };
 
 #endif
@@ -49,13 +51,13 @@ class ContaEspecial : public Conta
 protected:
   float _limite;
 public:
-  ContaEspecial(Cliente cliente, int numero =0, int agencia = 0, float saldo = 0, float limite) : Conta{cliente, numero, agencia, saldo}, _limite{limite} { }
+  ContaEspecial(Cliente cliente, int numero = 0, int agencia = 0, float saldo = 0, float limite = 0) : Conta{cliente, numero, agencia, saldo}, _limite{limite} { }
   ~ContaEspecial() { }
 
   float saque (float);
   float deposito (float);
 
-  virtual void imprime();
+  void imprime();
 };
 
 #endif
