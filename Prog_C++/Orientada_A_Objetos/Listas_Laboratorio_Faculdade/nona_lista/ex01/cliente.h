@@ -16,8 +16,8 @@ public:
   ~Cliente() { }
 
   virtual void imprime();
-  virtual float saque (float);
-  virtual float deposito (float);
+  virtual float saque (float) { return 0;}
+  virtual float deposito (float) {return 0;}
 };
 
 #endif
@@ -30,9 +30,9 @@ class Conta : public Cliente
 protected:
   int _numero, _agencia;
   float _saldo;
-  Cliente _cliente;
+
 public:
-  Conta(Cliente cliente, int numero =0, int agencia = 0, float saldo = 0) : _cliente{cliente}, _numero{numero}, _agencia{agencia}, _saldo{saldo} { }
+  Conta(string nome = " ", int idade = 0, string endereco = " ", int numero =0, int agencia = 0, float saldo = 0) : Cliente{nome, idade, endereco}, _numero{numero}, _agencia{agencia}, _saldo{saldo} { }
   ~Conta() { }
 
   float saque (float);
@@ -51,7 +51,7 @@ class ContaEspecial : public Conta
 protected:
   float _limite;
 public:
-  ContaEspecial(Cliente cliente, int numero = 0, int agencia = 0, float saldo = 0, float limite = 0) : Conta{cliente, numero, agencia, saldo}, _limite{limite} { }
+  ContaEspecial(string nome = " ", int idade = 0, string endereco = " ", int numero = 0, int agencia = 0, float saldo = 0, float limite = 0) : Conta{nome, idade, endereco, numero, agencia, saldo}, _limite{limite} { }
   ~ContaEspecial() { }
 
   float saque (float);

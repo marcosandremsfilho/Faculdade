@@ -30,9 +30,11 @@ float Conta :: deposito (float deposito)
 
 void Conta :: imprime()
 {
+  cout << "\n----------------------------";
   cout << "\nNumero da conta: " << _numero;
   cout << "\nAgencia: " << _agencia;
   cout << "\nSaldo (R$): " << _saldo;
+  cout << "\n----------------------------";
 }
 
 float ContaEspecial :: saque (float saque)
